@@ -17,7 +17,7 @@ spec:
         image: devopspatemf2021/twtech-spring-boot-mongo:twt-spring-boot-mongo
         env:
         - name:  MONGO_DB_HOSTNAME
-          value:  mongosvc
+          value:  mongo
         - name:  MONGO_DB_USERNAME
           value:  devdb                                                                                                                         
         - name:  MONGO_DB_PASSWORD                                                                                                              
@@ -68,7 +68,7 @@ spec:
 kind: Service                                                                                                                     
 apiVersion: v1                                                                                                                    
 metadata:                                                                                                                         
-  name: mongosvc                                                                                                                  
+  name: mongo                                                                                                                 
 spec:                                                                                                                             
   selector:                                                                                                                       
     app: mongo                                                                                                                    
