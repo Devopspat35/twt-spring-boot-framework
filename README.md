@@ -7,7 +7,7 @@ mvn clean package
 
 docker build -t mylandmarktech/springapp .
 
-#run application to test with docker 
+# Run application to test with docker 
 
 docker run --name <ContainerName> -d -p <imageName:tag> 
 
